@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, width=devide-width, initial-scale=1"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <title>Paredes Fernando | Welcome</title>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation" id="nav">
+        <ul class="menu">
+          <li><a href="#nav">Home</a></li>
+          <li><a href="#iam">Who am I</a></li>
+          <li><a href="#T1">Services</a></li>
+          <li><a href="#contact">Where to find me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main-wrap">
+      <section>
+        <h1>Paredes, Fernando Ivan</h1>
+      </section>
+      
+      <div class="iam">
+        <div class="animated-text">
+          <div class="line">Web Design (Front end)</div>
+          <div class="line">PHP & RDBMS</div>
+          <div class="line">Java, C++ and OOP in general</div>
+        </div>
+        <h2 id="iam">Who am I</h2>
+        <p>
+          I'm a <b>Programmer Analyst</b> graduated at the Exact Sciences
+          college of the
+          <a href="https://www.fceqyn.unam.edu.ar/"
+            >Universidad Nacional de Misiones.</a
+          ><br>
+        </p>
+        <p>
+          I'm a person very passionated for technology who can adapt to the
+          working environment or working group very quickly. Also, I count with very clever analysis and problem solving skills.
+        </p>
+        <p>I'm a professional with a structured behavior and working manner who seeks to never stop learning and, with my skills, achieve all proposed goals.</p>
+        <p>Do you need your car repaired? I'm an Automotive Technician graduated at <a href="https://www.ipsaj.edu.ar/">Janssen Institute</a>!</p>
+        <div class="btn"><a href="#contact">Message me!</a></div>
+      </div>
+      <br />
+      <div class="services">
+        <div class="T1"><h2 id="T1">Some of my work</h2></div>
+        <p>Next there are some projects that prove my knowledge in the IT field:</p>
+        <div class="card">
+          <a href="https://www.smbxequipoestelar.com/foro" id="equipo-estelar">Deployer, designer & maintainer (NOW)</a>
+        </div>
+        <br>
+        <div class="skills"><h2>Skills and known tools</h2><br><br>
+        <ol>
+          <li>Domain of C language.</li>
+          <li>Car mechanics and electricity.</li>
+          <li>Basic electronics.</li>
+          <li>Advanced Arduino & Embedded systems knowledge.</li>
+          <li>Maneuvering of Docker and VirtualBox.</li>
+          <li>Basic pentesting procedures.</li>
+        </ol></div>
+        
+      </div>
+      <div id="contact">
+        <div class="form-wrap">
+          <div class="info_title">
+            <span class="fa fa-user-circle">
+              <h2>Contact me</h2>
+            </span>
+          </div>
+          <div class="info_items">
+            <ol>
+              <li><a href="https://github.com/fivanparedes">GitHub Repo</a></li><br>
+              <li><a href="https://www.linkedin.com/in/fivanparedes/">LinkedIn Profile</a></li><br>
+              <li><a href="https://instagram.com/ivan.p.1999">Personal Instagram profile</a></li>
+            </ol>
+          </div><br><br>
+          <h2>Contact form</h2>
+          <form action="send.php" method="POST" class="form-contact">
+            <div class="user-info">
+              <div class="row">
+                <div class="col-25">
+                  <label for="name">Your name *</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="name" name="name" required />
+              </div>
+              <div class="row">
+                  <div class="col-25">
+                    <label for="phone">Phone Number</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="tel" id="phone" name="phone" />
+              </div>
+              <div class="row">
+                    <div class="col-25">
+                     <label for="email">E-mail address *</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="email" id="email" name="email" required />
+                    </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Subject: *</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="subject" name="subject" required>
+                  </div>
+              </div>
+              <div class="row">
+                      <div class="col-25">
+                        <label for="message">Message: *</label>
+                      </div>
+                      <div class="col-75">
+                        <textarea id="message" name="message" required></textarea>
+                      </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Send" id="btnSend" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="foot-contain"><p>This website was part of a project for the PHP Programming Course available at <a href="https://polotic.misiones.gob.ar/">PoloTic Misiones</a>.</p>
+      <br>
+        <p>(c) 2021 Paredes Fernando Ivan. Using PHPMailer.</p>
+      </div>
+      
+    </footer>
+  </body>
+</html>
