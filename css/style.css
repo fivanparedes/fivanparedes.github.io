@@ -51,14 +51,11 @@ table {
 }
 
 /* site design */
-* {
-    font-family: 'Open Sans';
-    font-weight: 100;
-}
 
 body{
     background-color: #000000;
     color: whitesmoke;
+    font-family: 'Open Sans';
 }
 
 h1{
